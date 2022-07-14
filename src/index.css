@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Rose';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Rose.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rose';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Rose.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

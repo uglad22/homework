@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none
+}
+/*CSS 초기화*/
+
+.total {
+
+}
+
+.App {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./image.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 1500px;
+  width: 95%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  padding: 30px;
+  background-attachment: fixed;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  height: 4rem;
+  font-size: 40px;
+  background-color:#f2a386;
+
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+
+  display : flex;
+  /* 가로축 가운데 정렬 */
+  justify-content : center;
+  /* 세로축 가운데 정렬 */
+  align-items : center;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.cards-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  gap: 30px;
+  font-size: 28px;
+}
+
+.card {
+  border: 3px solid salmon;
+  border-radius: 10px;
+  width: 25%;
+  height: 10rem;
+  margin-top: 0px;
+  padding: 1rem;
+}
+
+.ex {
+  color: cornflowerblue;
+    font-size: 25px;
+}
+
+button {
+  background-color: coral;
+  color: #fff;
+  border: none;
+  border-radius: 3rem;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  font-family: 'Rose';
+  font-size: 20px;
+}
+
+.add-h3 {
+  color: coral;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 2rem;
+  font-size: 35px;
+}
+
+.save {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.save > div {
+  padding-bottom: 15px;
+  color:saddlebrown;
+  font-weight: bold;
+  
+}
+
+.save > div > span {
+  display: flex;
+  padding-top: 20px;
+}
+
+input {
+  width: 300px;
+  height: 10px;
+	border:none;
+  border-bottom: 1px solid salmon;
+  background-color: transparent;
+  padding: 1rem;
+  font-family: 'Rose';
+  font-size: 25px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid salmon;
+}
+
+.add {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+} /* 버튼 우측 하단 고정*/
